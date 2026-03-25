@@ -4,25 +4,19 @@ Spawn expert AI agents on demand inside Claude Cowork and Claude Code. Ask for a
 
 ## Install
 
+From the Claude plugin marketplace:
+
 ```
-/plugin install soulz@claude-plugins-official
+/plugin install soulz
 ```
 
-Or via CLI:
+Or via terminal:
 
 ```bash
-claude mcp add soulz -- npx @soulz-io/mcp
+claude mcp add --env SOULZ_LICENSE_KEY=your_key_here soulz -- npx @soulz-io/mcp
 ```
 
-## Setup
-
-1. Sign up for free at [soulz.io](https://soulz.io)
-2. Copy your license key from the account page
-3. Set it in your environment:
-
-```bash
-export SOULZ_LICENSE_KEY="sk_soulz_..."
-```
+Get your free license key at [soulz.io](https://soulz.io).
 
 ## Usage
 
