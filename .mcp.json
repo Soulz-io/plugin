@@ -1,9 +1,7 @@
 {
   "soulz": {
-    "command": "npx",
-    "args": ["@soulz-io/mcp"],
-    "env": {
-      "SOULZ_LICENSE_KEY": ""
-    }
+    "type": "http",
+    "url": "https://soulz.io/mcp/${SOULZ_LICENSE_KEY}",
+    "env": ["SOULZ_LICENSE_KEY"]
   }
 }

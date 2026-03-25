@@ -2,12 +2,13 @@
   "name": "soulz",
   "displayName": "Soulz — AI Expert Agents",
   "description": "Spawn expert AI agents on demand. Ask for any role — LinkedIn copywriter, financial analyst, UX researcher — and get a specialist ready to work in seconds.",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "author": {
     "name": "Soulz.io",
     "url": "https://soulz.io"
   },
   "homepage": "https://soulz.io",
   "license": "MIT",
-  "keywords": ["ai-agents", "experts", "claude-cowork", "claude-code", "mcp"]
+  "keywords": ["ai-agents", "experts", "claude-cowork", "claude-code", "mcp"],
+  "requiredEnv": ["SOULZ_LICENSE_KEY"]
 }

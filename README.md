@@ -2,21 +2,23 @@
 
 Spawn expert AI agents on demand inside Claude Cowork and Claude Code. Ask for any role — LinkedIn copywriter, financial analyst, UX researcher — and get a specialist ready to work in seconds.
 
-## Install
-
-From the Claude plugin marketplace:
+## Install from marketplace
 
 ```
 /plugin install soulz
 ```
 
-Or via terminal:
+## Setup
+
+1. Sign up for free at [soulz.io](https://soulz.io)
+2. Copy your license key from the account page
+3. When prompted, enter your `SOULZ_LICENSE_KEY`
+
+## Or install manually
 
 ```bash
-claude mcp add --env SOULZ_LICENSE_KEY=your_key_here soulz -- npx @soulz-io/mcp
+claude mcp add --transport http soulz https://soulz.io/mcp/YOUR_LICENSE_KEY
 ```
-
-Get your free license key at [soulz.io](https://soulz.io).
 
 ## Usage
 
@@ -30,6 +32,12 @@ Just ask Claude:
 
 Your agent is ready in seconds.
 
+## Tools
+
+- **soulz_spawn_expert** — Spawn an expert by role title
+- **soulz_browse** — Browse available experts by category
+- **soulz_quota** — Check your plan and remaining agents
+
 ## Pricing
 
 - **Free** — 1 agent
@@ -40,4 +48,3 @@ Your agent is ready in seconds.
 
 - [soulz.io](https://soulz.io)
 - [Browse experts](https://soulz.io/personalities)
-- [npm package](https://www.npmjs.com/package/@soulz-io/mcp)
