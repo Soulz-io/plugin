@@ -1,0 +1,9 @@
+{
+  "soulz": {
+    "command": "npx",
+    "args": ["@soulz-io/mcp"],
+    "env": {
+      "SOULZ_LICENSE_KEY": ""
+    }
+  }
+}
